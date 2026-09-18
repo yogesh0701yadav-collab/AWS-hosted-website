@@ -1,1 +1,258 @@
+```css
+/* =========================
+   RESET
+========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* =========================
+   BODY
+========================= */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #0f172a;
+    color: white;
+}
+
+
+/* =========================
+   NAVIGATION
+========================= */
+
+.navbar {
+    height: 70px;
+    padding: 0 8%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background: #020617;
+}
+
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+}
+
+
+.nav-links a {
+    color: #cbd5e1;
+    text-decoration: none;
+    font-size: 16px;
+
+    transition: 0.3s;
+}
+
+
+.nav-links a:hover {
+    color: #38bdf8;
+}
+
+
+/* =========================
+   HERO SECTION
+========================= */
+
+.hero {
+    min-height: calc(100vh - 70px);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    padding: 40px 20px;
+}
+
+
+.hero-content {
+    max-width: 800px;
+}
+
+
+.hero h1 {
+    font-size: 60px;
+    line-height: 1.1;
+
+    margin-bottom: 25px;
+}
+
+
+.hero h1 span {
+    color: #38bdf8;
+}
+
+
+.hero p {
+    color: #94a3b8;
+
+    font-size: 20px;
+    line-height: 1.6;
+
+    margin-bottom: 35px;
+}
+
+
+/* =========================
+   BUTTON
+========================= */
+
+.btn {
+    display: inline-block;
+
+    padding: 14px 30px;
+
+    background: #38bdf8;
+    color: #020617;
+
+    text-decoration: none;
+
+    border-radius: 8px;
+
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+
+.btn:hover {
+    background: #7dd3fc;
+    transform: translateY(-3px);
+}
+
+
+/* =========================
+   FEATURES
+========================= */
+
+.features {
+    display: flex;
+
+    justify-content: center;
+    align-items: stretch;
+
+    gap: 25px;
+
+    padding: 70px 8%;
+
+    flex-wrap: wrap;
+}
+
+
+.card {
+    width: 280px;
+
+    padding: 35px 25px;
+
+    background: #1e293b;
+
+    border-radius: 15px;
+
+    text-align: center;
+
+    transition: 0.3s;
+}
+
+
+.card:hover {
+    transform: translateY(-8px);
+    background: #263449;
+}
+
+
+.icon {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+
+.card h2 {
+    margin-bottom: 12px;
+}
+
+
+.card p {
+    color: #94a3b8;
+    line-height: 1.6;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+    padding: 25px;
+
+    text-align: center;
+
+    background: #020617;
+
+    color: #64748b;
+}
+
+
+/* =========================
+   MOBILE RESPONSIVE
+========================= */
+
+@media (max-width: 600px) {
+
+    .navbar {
+        padding: 0 5%;
+    }
+
+
+    .logo {
+        font-size: 20px;
+    }
+
+
+    .nav-links {
+        gap: 10px;
+    }
+
+
+    .nav-links a {
+        font-size: 14px;
+    }
+
+
+    .hero h1 {
+        font-size: 40px;
+    }
+
+
+    .hero p {
+        font-size: 17px;
+    }
+
+
+    .features {
+        padding: 50px 20px;
+    }
+
+
+    .card {
+        width: 100%;
+        max-width: 350px;
+    }
+
+}
+```
 
